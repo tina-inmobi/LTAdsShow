@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LTModel : NSObject
 @property (nonatomic,copy) NSString* name;
+@property (nonatomic,copy) NSString* age;
+@property (nonatomic,copy) NSString* phone;
 
 @end
 

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LTModel.h"
+
 
 @interface ViewController ()
 
@@ -21,6 +23,8 @@
     self.view.backgroundColor = [UIColor redColor];
     NSArray *arr =[NSArray array];
     arr = @[@"1",@"2"];
+    LTModel* mode = [[LTModel alloc]init];
+    mode.age = arr[1];
     
 }
 
