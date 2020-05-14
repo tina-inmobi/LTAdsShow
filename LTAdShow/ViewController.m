@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view.
     //测试一下
     self.view.backgroundColor = [UIColor redColor];
+    NSArray *arr =[NSArray array];
+    arr = @[@"1",@"2"];
+    
 }
 
 

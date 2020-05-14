@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CGFloat height = UIScreen.mainScreen.bounds.size.height;
+    NSLog(@"%f",height);
     return YES;
 }
 
